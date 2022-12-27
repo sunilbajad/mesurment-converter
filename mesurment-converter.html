@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mesurment-converter</title>
+    <link rel="stylesheet" href="mesurment.css">
+</head>
+<body>
+    <p class="top-text">Type a value in any of the fields to convert between length mesurments : </p>
+    <div class="container">
+        <p>Length Converter</p>
+        <div class="inputcontainer">
+            <label for="feet">feet</label><input type="number" id="feet" oninput="convertToOthers('feet',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="meter">Meter</label><input type="number" id="meter" oninput="convertToOthers('meter',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="inches">inches</label><input type="number" id="inches" oninput="convertToOthers('inches',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="cm">cm</label><input type="number" id="cm" oninput="convertToOthers('cm',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="yards">yards</label><input type="number" id="yards" oninput="convertToOthers('yards',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="km">km</label><input type="number" id="km" oninput="convertToOthers('km',this.value)">
+        </div>
+        <div class="inputcontainer">
+            <label for="miles">miles</label><input type="number" id="miles" oninput="convertToOthers('miles',this.value)">
+        </div>
+    </div>
+    <script src="mesurment.js"></script>
+
+</body>
+</html>
